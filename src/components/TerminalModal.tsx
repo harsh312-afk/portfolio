@@ -115,7 +115,7 @@ export default function TerminalModal({ isOpen, onClose }: TerminalModalProps) {
           <div className="space-y-2 text-slate-300 text-xs leading-relaxed">
             <p className="text-emerald-400 font-bold">{PERSONAL_INFO.name} // {PERSONAL_INFO.role}</p>
             <p>{PERSONAL_INFO.about}</p>
-            <p className="text-slate-400">Location: {PERSONAL_INFO.location} • Education: BCA (AI & ML), Ethics University</p>
+            <p className="text-slate-400">Location: {PERSONAL_INFO.location} • Education: B.Tech Computer Science, Ethics University</p>
           </div>
         );
         break;

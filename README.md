@@ -23,7 +23,7 @@ Tailored to highlight full-stack web architectures, asynchronous APIs (FastAPI &
 - **Interactive Project Architecture Modals**: Click *"Architecture Details"* on any project card to review complete system designs, trade-offs, and latency metrics.
 - **Technical Arsenal**: Categorized competencies across Languages, Frontend, Backend & APIs, Databases, and DevOps & Systems.
 - **Embedded In-Browser CLI Terminal**: Interactive terminal emulator supporting commands: `help`, `bio`, `skills`, `projects`, `fastfetch`, `systems`, `contact`, and `clear`.
-- **Education & Career Timeline**: Academic foundation in BCA (AI & ML) at Ethics University combined with independent software product engineering track record.
+- **Education & Career Timeline**: Academic foundation in B.Tech Computer Science at Ethics University combined with independent software product engineering track record.
 - **Direct Handshake**: Functional contact form with 1-click clipboard copy for email and phone.
 
 ---

@@ -14,7 +14,7 @@ export const PERSONAL_INFO = {
   quickStats: [
     { label: "15+ Repositories & Utilities", value: "15+" },
     { label: "Full-Stack & Systems Focus", value: "MERN & FastAPI" },
-    { label: "BCA (AI & ML)", value: "Undergrad" }
+    { label: "B.Tech Computer Science", value: "Undergrad" }
   ]
 };
 
@@ -169,10 +169,10 @@ export const OPEN_SOURCE_SYSTEMS = [
 export const TIMELINE = [
   {
     period: "2024 — Present",
-    role: "BCA (Artificial Intelligence & Machine Learning)",
+    role: "B.Tech Computer Science & Engineering",
     organization: "Ethics University",
     location: "Uttarakhand, India",
-    description: "Core specialization in machine learning fundamentals, data structures, algorithm design, and cloud systems architecture.",
+    description: "Core specialization in computer science fundamentals, data structures, algorithm design, distributed systems, and intelligent software architectures.",
     details: [
       "Rigorous coursework in computational linear algebra, discrete math, and algorithm analysis.",
       "Practical engineering in distributed systems, asynchronous API backends, and containerized deployments.",

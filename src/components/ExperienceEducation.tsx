@@ -16,7 +16,7 @@ export default function ExperienceEducation() {
           Education & Engineering Path
         </h2>
         <p className="text-slate-400 text-sm sm:text-base max-w-2xl">
-          Academic foundation in AI/ML combined with intensive hands-on product and systems engineering.
+          Academic foundation in Computer Science combined with intensive hands-on product and systems engineering.
         </p>
       </div>
 
