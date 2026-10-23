@@ -12,7 +12,7 @@ export const PERSONAL_INFO = {
   heading: "Full-Stack Developer & AI/ML Engineer",
   tagline: "Building scalable web architectures, asynchronous APIs, and intelligent data systems from the Linux kernel to the browser.",
   quickStats: [
-    { label: "15+ Repositories & Utilities", value: "15+" },
+    { label: "Repositories & Utilities", value: "15+" },
     { label: "Full-Stack & Systems Focus", value: "MERN & FastAPI" },
     { label: "B.Tech Computer Science", value: "Undergrad" }
   ]
