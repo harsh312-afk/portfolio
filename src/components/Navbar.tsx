@@ -24,8 +24,13 @@ export default function Navbar({ onOpenTerminal }: NavbarProps) {
     <header className="sticky top-0 z-40 bg-[#0B0F19]/85 backdrop-blur-md border-b border-slate-800/80 px-6 py-3.5 transition-all">
       <div className="max-w-6xl mx-auto flex items-center justify-between">
         {/* Brand */}
-        <a href="#" className="flex items-center gap-2 group font-mono text-sm">
-          <span className="text-emerald-400 font-bold">~</span>
+        <a href="#" className="flex items-center gap-2.5 group font-mono text-sm">
+          <div className="w-7 h-7 rounded-lg bg-[#0B0F19] border border-emerald-500/40 flex items-center justify-center p-1 group-hover:border-emerald-400 group-hover:shadow-[0_0_12px_rgba(16,185,129,0.25)] transition-all">
+            <svg viewBox="0 0 64 64" className="w-full h-full" fill="none">
+              <path d="M18 19L32 32L18 45" stroke="#34D399" strokeWidth="6" strokeLinecap="round" strokeLinejoin="round" />
+              <path d="M37 45H49" stroke="#38BDF8" strokeWidth="6" strokeLinecap="round" />
+            </svg>
+          </div>
           <span className="text-slate-100 font-semibold group-hover:text-emerald-300 transition-colors">
             harsh.dev
           </span>

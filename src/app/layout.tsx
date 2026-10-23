@@ -18,6 +18,14 @@ export const metadata: Metadata = {
     title: "Harsh Gautam | Full-Stack & AI/ML Engineer",
     description: "Building scalable web architectures, asynchronous APIs, and intelligent data systems.",
   },
+  icons: {
+    icon: [
+      { url: "/icon.svg", type: "image/svg+xml" },
+      { url: "/favicon.ico", sizes: "any" }
+    ],
+    shortcut: "/favicon.ico",
+    apple: "/apple-touch-icon.png",
+  },
 };
 
 export default function RootLayout({
