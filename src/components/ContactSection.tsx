@@ -1,7 +1,8 @@
 "use client";
 
 import React, { useState } from "react";
-import { Mail, Phone, MapPin, Github, Send, CheckCircle2, Copy, Check } from "lucide-react";
+import { Mail, Phone, MapPin, Send, CheckCircle2, Copy, Check } from "lucide-react";
+import { GithubIcon } from "@/components/icons/Github";
 import { PERSONAL_INFO } from "@/data/portfolio";
 
 export default function ContactSection() {
@@ -100,7 +101,7 @@ export default function ContactSection() {
             {/* GitHub Card */}
             <div className="p-4 rounded-xl bg-slate-900/40 border border-slate-800 flex items-center justify-between gap-3">
               <div className="flex items-center gap-2.5 min-w-0">
-                <Github className="w-4 h-4 text-slate-400 shrink-0" />
+                <GithubIcon className="w-4 h-4 text-slate-400 shrink-0" />
                 <div className="min-w-0">
                   <span className="text-slate-500 block text-[10px]">GITHUB</span>
                   <a

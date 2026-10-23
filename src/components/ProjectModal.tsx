@@ -1,7 +1,8 @@
 "use client";
 
 import React from "react";
-import { X, Github, ExternalLink, Cpu, CheckCircle2, Layers } from "lucide-react";
+import { X, ExternalLink, Cpu, CheckCircle2, Layers } from "lucide-react";
+import { GithubIcon } from "@/components/icons/Github";
 import { Project } from "@/data/portfolio";
 
 interface ProjectModalProps {
@@ -110,7 +111,7 @@ export default function ProjectModal({ project, onClose }: ProjectModalProps) {
               rel="noreferrer"
               className="inline-flex items-center gap-2 px-4 py-2 rounded-lg bg-slate-800 hover:bg-slate-700 text-white font-mono text-xs transition"
             >
-              <Github className="w-4 h-4" /> View GitHub Repository
+              <GithubIcon className="w-4 h-4" /> View GitHub Repository
             </a>
           ) : <div />}
           <button

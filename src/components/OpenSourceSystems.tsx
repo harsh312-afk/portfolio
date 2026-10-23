@@ -1,7 +1,8 @@
 "use client";
 
 import React from "react";
-import { Terminal, Cpu, GitFork, ArrowUpRight, Github } from "lucide-react";
+import { Terminal, Cpu, GitFork, ArrowUpRight } from "lucide-react";
+import { GithubIcon } from "@/components/icons/Github";
 import { OPEN_SOURCE_SYSTEMS, PERSONAL_INFO } from "@/data/portfolio";
 
 export default function OpenSourceSystems() {
@@ -78,7 +79,7 @@ export default function OpenSourceSystems() {
           rel="noreferrer"
           className="text-emerald-400 hover:text-emerald-300 flex items-center gap-1.5 text-xs font-semibold transition"
         >
-          <Github className="w-3.5 h-3.5" /> View Dotfiles Repository
+          <GithubIcon className="w-3.5 h-3.5" /> View Dotfiles Repository
         </a>
       </div>
     </section>

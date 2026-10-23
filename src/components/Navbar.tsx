@@ -1,7 +1,8 @@
 "use client";
 
 import React, { useState } from "react";
-import { Terminal, Github, FileText, Menu, X } from "lucide-react";
+import { Terminal, FileText, Menu, X } from "lucide-react";
+import { GithubIcon } from "@/components/icons/Github";
 import { PERSONAL_INFO } from "@/data/portfolio";
 
 interface NavbarProps {
@@ -66,7 +67,7 @@ export default function Navbar({ onOpenTerminal }: NavbarProps) {
             className="p-2 rounded-lg bg-slate-900 border border-slate-800 hover:border-slate-700 text-slate-300 hover:text-white transition-all"
             aria-label="GitHub Profile"
           >
-            <Github className="w-4 h-4" />
+            <GithubIcon className="w-4 h-4" />
           </a>
 
           <a

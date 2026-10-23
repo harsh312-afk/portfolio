@@ -1,7 +1,8 @@
 "use client";
 
 import React from "react";
-import { Github, ExternalLink, ArrowRight } from "lucide-react";
+import { ExternalLink, ArrowRight } from "lucide-react";
+import { GithubIcon } from "@/components/icons/Github";
 import { Project } from "@/data/portfolio";
 
 interface ProjectCardProps {
@@ -32,7 +33,7 @@ export default function ProjectCard({ project, onOpenDetails }: ProjectCardProps
                 className="p-1.5 rounded-lg hover:text-white hover:bg-slate-800 transition"
                 aria-label={`GitHub for ${project.title}`}
               >
-                <Github className="w-4 h-4" />
+                <GithubIcon className="w-4 h-4" />
               </a>
             )}
           </div>

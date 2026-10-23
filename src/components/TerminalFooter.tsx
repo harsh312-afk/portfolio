@@ -1,7 +1,8 @@
 "use client";
 
 import React from "react";
-import { Terminal, Github, FileText, ArrowUp } from "lucide-react";
+import { Terminal, FileText, ArrowUp } from "lucide-react";
+import { GithubIcon } from "@/components/icons/Github";
 import { PERSONAL_INFO } from "@/data/portfolio";
 
 interface TerminalFooterProps {
@@ -42,7 +43,7 @@ export default function TerminalFooter({ onOpenTerminal }: TerminalFooterProps) 
             className="hover:text-white transition"
             aria-label="GitHub"
           >
-            <Github className="w-4 h-4" />
+            <GithubIcon className="w-4 h-4" />
           </a>
 
           <a
