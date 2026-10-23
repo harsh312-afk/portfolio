@@ -3,6 +3,7 @@ export const PERSONAL_INFO = {
   role: "Full-Stack Developer & AI/ML Engineer",
   location: "Dhampur, UP, India",
   github: "https://github.com/harsh312-afk",
+  website: "https://portfolio-harsh312-afk.vercel.app",
   email: "harsh.gautam.dsm@gmail.com",
   phone: "+91 6396753055",
   about:

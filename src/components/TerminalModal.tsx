@@ -160,6 +160,7 @@ export default function TerminalModal({ isOpen, onClose }: TerminalModalProps) {
       case "contact":
         output = (
           <div className="space-y-1 text-xs text-slate-300">
+            <p>Portfolio: <a href={PERSONAL_INFO.website} target="_blank" rel="noreferrer" className="text-emerald-400 underline">{PERSONAL_INFO.website}</a></p>
             <p>Email: <a href={`mailto:${PERSONAL_INFO.email}`} className="text-emerald-400 underline">{PERSONAL_INFO.email}</a></p>
             <p>Phone: <span className="text-emerald-400">{PERSONAL_INFO.phone}</span></p>
             <p>GitHub: <a href={PERSONAL_INFO.github} target="_blank" rel="noreferrer" className="text-emerald-400 underline">github.com/harsh312-afk</a></p>

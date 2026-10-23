@@ -1,5 +1,10 @@
 # ⚡ Harsh Gautam — Modern Developer Portfolio
 
+[![Live Site](https://img.shields.io/badge/Live_Site-portfolio--harsh312--afk.vercel.app-000000?style=for-the-badge&logo=vercel&logoColor=white)](https://portfolio-harsh312-afk.vercel.app)
+[![GitHub](https://img.shields.io/badge/GitHub-harsh312--afk-181717?style=for-the-badge&logo=github&logoColor=white)](https://github.com/harsh312-afk)
+
+> 🌐 **Live Portfolio:** [https://portfolio-harsh312-afk.vercel.app](https://portfolio-harsh312-afk.vercel.app)
+
 A fast, minimalist, and terminal-inspired personal developer portfolio engineered with **Next.js (App Router)**, **TypeScript**, and **Tailwind CSS**.
 
 Tailored to highlight full-stack web architectures, asynchronous APIs (FastAPI & Node.js), relational/NoSQL database systems, and Linux workstation tooling.
