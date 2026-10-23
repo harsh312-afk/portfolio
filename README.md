@@ -40,12 +40,3 @@ Open [http://localhost:3000](http://localhost:3000) in your browser.
 ```bash
 npm run build
 ```
-
----
-
-## 🌐 Deployment to Vercel
-
-```bash
-git push origin main
-```
-Import the repository into [Vercel](https://vercel.com) for edge-optimized deployment with automatic continuous integration.
